@@ -3,7 +3,7 @@
 /**
  * main -this in the main function
  *
- * Return:0 on success
+ * Return: always 0
  */
 int main(void)
 {
