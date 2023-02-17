@@ -7,10 +7,6 @@
  */
 int main(void)
 {
-	unsigned int a = sizeof(char)
-	unsigned int a = sizeof(char)
-	unsigned int a = sizeof(char)
-	unsigned int a = sizeof(char)
 	printf("Size of a char: %zu, byte(s)", sizeof(char));
 	printf("\nSize of an int: %zu byte(s)", sizeof(int));
 	printf("\nSize of a long int: %zu byte(s)", sizeof(long));
