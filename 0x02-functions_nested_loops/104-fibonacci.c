@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	unsigned long int n1 = 1;
-	unsigned long int n2 = 2;
-	unsigned long int n3;
-	unsigned long int count;
+	long double n1 = 1;
+	long double n2 = 2;
+	long double n3;
+	long double count;
 
-	printf("%lu", n1);
+	printf("%Lf", n1);
 	printf(",");
 	printf(" ");
-	printf("%lu", n2);
+	printf("%Lf", n2);
 	printf(",");
 	printf(" ");
 	for (count = 3 ; count <= 98 ; count++)
 	{
 		n3 = n1 + n2;
-		printf("%lu", n3);
+		printf("%Lf", n3);
 		n1 = n2;
 		n2 = n3;
 	if (count != 98)
