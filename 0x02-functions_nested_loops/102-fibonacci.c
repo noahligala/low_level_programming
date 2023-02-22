@@ -17,12 +17,14 @@ int main(void)
 	{
 		n3 = n1 + n2;
 		printf("%ld", n3);
-		printf(",");
 		n1 = n2;
 		n2 = n3;
 
 	if (count != 50)
+	{
+		printf(",");
 		printf(" ");
+	}
 	else
 		printf("\n");
 	}
