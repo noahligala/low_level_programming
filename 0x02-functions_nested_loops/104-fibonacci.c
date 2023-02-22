@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int n3;
 	unsigned long int count;
 
-	printf("1, 2, ");
+	printf("%lu, %lu, ", n1, n2);
 	for (count = 3 ; count <= 98 ; count++)
 	{
 		n3 = n1 + n2;
