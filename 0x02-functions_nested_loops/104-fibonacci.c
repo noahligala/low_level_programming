@@ -12,16 +12,16 @@ int main(void)
 	long double n3;
 	long double count;
 
-	printf("%Lf", n1);
+	printf("%.0Lf", n1);
 	printf(",");
 	printf(" ");
-	printf("%Lf", n2);
+	printf("%.0Lf", n2);
 	printf(",");
 	printf(" ");
 	for (count = 3 ; count <= 98 ; count++)
 	{
 		n3 = n1 + n2;
-		printf("%Lf", n3);
+		printf("%.0Lf", n3);
 		n1 = n2;
 		n2 = n3;
 	if (count != 98)
