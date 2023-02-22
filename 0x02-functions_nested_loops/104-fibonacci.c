@@ -18,13 +18,13 @@ int main(void)
 	printf("%lu", n2);
 	printf(",");
 	printf(" ");
-	for (count = 3 ; count <= 99 ; count++)
+	for (count = 3 ; count <= 98 ; count++)
 	{
 		n3 = n1 + n2;
 		printf("%lu", n3);
 		n1 = n2;
 		n2 = n3;
-	if (count != 99)
+	if (count != 98)
 	{
 		printf(",");
 		printf(" ");
