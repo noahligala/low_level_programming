@@ -4,7 +4,7 @@
  *
  * @c: function parameter
  *
- * Return 1 if digit otherwise 0
+ * Return: 1 if digit otherwise 0
  */
 int _isdigit(int c)
 {
