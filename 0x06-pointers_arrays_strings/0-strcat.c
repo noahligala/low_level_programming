@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - function to append the src string to dest
+ * _strcat - function to append the src string to dest
  * @src: function parameter
  * @dest: function parameter
  * Return: dest on success
