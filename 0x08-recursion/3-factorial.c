@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow_recursion - function that calculates the factorial
+ * factorial - function that calculates the factorial
  * of a given number
  * @n: integer for which the factorial is calculated
  * Return: integer value
