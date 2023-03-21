@@ -1,3 +1,3 @@
-#ifndef _HEADER_
+#ifndef SIZE
 #define SIZE 1024
 #endif
