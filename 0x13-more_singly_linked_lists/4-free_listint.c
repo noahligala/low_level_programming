@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint -frees memory occupied by a 
+ * free_listint -frees memory occupied by a
  * linked list.
  *
  * @head: pointer to the first node of the
